@@ -1,0 +1,51 @@
+***
+# Incident: Tableau Reports ABBVIE Certifications - Not On Reports
+***
+
+*** 
+## Incident Details
+
+- **Incident Date:** 2026-02-16 15:27:00  
+- **Reported By:** TAA Business Team  
+- **Impacted System:** Tableau  
+- **Severity:** Low  
+- **Status:** Resolved  
+***
+
+***
+## Incident Description
+
+Team ABBVIE 0110 certifications for 2-12-2026 were not showing on the All Product or the FSSCOOWeeklyChange reports.
+***
+
+***
+## Business Impact
+
+- Dashboards showed incorrect metrics
+- Daily operational reviews were delayed
+- Manual verification was required by analysts
+
+***
+
+***
+## Root Cause Analysis
+
+- The script was not updated to fulfill the necessary ask from the business user.
+
+***
+
+***
+## Resolution
+
+- Updated Tableau scripts to obtain the required data columns and modify the tableau reports accordingly.
+- Validated dashboards against source data
+***
+
+***
+
+## Preventive Measures
+
+- Add schema validation checks before refresh
+- Add validation checks after every production deployment.
+
+***
